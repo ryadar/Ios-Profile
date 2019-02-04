@@ -1,0 +1,6 @@
+framework module Pods_RyadarUITests {
+  umbrella header "Pods-RyadarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

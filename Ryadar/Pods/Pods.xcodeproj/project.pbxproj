@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004D8715F05FE7018104AFB1B00C43DD /* Pods-Ryadar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9246D2BB8E576D3678B409FF5D4020A /* Pods-Ryadar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13232AD7DA293DE7DB6D3F5F11386063 /* Pods-RyadarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23308BAD70BC9B545DB5ADCFA8828E59 /* Pods-RyadarTests-dummy.m */; };
+		35FF0EBDEE98388A2585AC08D62605A5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */; };
+		4D1912D5FEB362B868488D0A177C4032 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 762F3222FAF2871DAEC30EBC271D201C /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD538E6542D9EAEED3D8A14553B7772 /* Pods-RyadarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 204694F428E2DE30B367CCD5C773E590 /* Pods-RyadarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F08AD7DA5064229343DA6BE4275475 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */; };
+		A379D128A671617637C0E0268C1935DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		A4419BAC5A154BF2821425C64785E87B /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5837D14E63E39BE85FC0978A71986A /* Pods-RyadarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 449C2BF4B544D17F0CA0CA8CB3688DFE /* Pods-RyadarUITests-dummy.m */; };
+		BECC43F23122481CE4FECECC50702901 /* Pods-RyadarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C57D22D7A9849CE26954D0E95730B07 /* Pods-RyadarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B9FB3B83D375CFDD7E33393177A3AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		C2D528C1E35BC3345410996C1B030CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		C32045C24F098B0F4B649D6910F5E7C5 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B8C6866E0D10770C54C9A80C10E01F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */; };
+		D1C7F17C2444E0D89C57E4A6EB01CCA5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAEBB8F44D182ADA95B4993A98EF1922 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */; };
+		DBA97C0F1E3A9E1CAC1A1BC66BE55D02 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5983080766D0A8329DB9196E04073F /* SVProgressHUD-dummy.m */; };
+		EB0F607413624BC24D3084787B1CEA58 /* Pods-Ryadar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE29795C422932F59E89F1AA6EA9434 /* Pods-Ryadar-dummy.m */; };
+		EC42542211225F0CEA8401A2B049EB32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		EF27885EFD89E12004061E0611BEE07E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */; };
+		F95883AB34F94431E2F4650AC71F0058 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC3A55AA4327D9542EC22EAF0F0E3E6 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503FEA2A1C74FEAD0EA1048693833846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07481E22DCF67D5216BCC7126838B91C;
+			remoteInfo = "Pods-Ryadar";
+		};
+		ACC94943797D4BBE7B695E0014BBAEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07481E22DCF67D5216BCC7126838B91C;
+			remoteInfo = "Pods-Ryadar";
+		};
+		D7E60CA7478316911BC0033C5534D70F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7F967E54F58C5B98C8A6C995878447;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17147A27188F69FF6020992FFF06FE43 /* Pods-Ryadar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ryadar-frameworks.sh"; sourceTree = "<group>"; };
+		18EE4AD0753AC0F8C8F87A0633E989CB /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		1ED171CC05178D17BAF07856EB379243 /* Pods-Ryadar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ryadar-acknowledgements.plist"; sourceTree = "<group>"; };
+		204694F428E2DE30B367CCD5C773E590 /* Pods-RyadarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RyadarTests-umbrella.h"; sourceTree = "<group>"; };
+		23308BAD70BC9B545DB5ADCFA8828E59 /* Pods-RyadarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RyadarTests-dummy.m"; sourceTree = "<group>"; };
+		2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		332BC8B7E4E58EAF2B82BCDB1C342A32 /* Pods-Ryadar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ryadar-Info.plist"; sourceTree = "<group>"; };
+		3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		449C2BF4B544D17F0CA0CA8CB3688DFE /* Pods-RyadarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RyadarUITests-dummy.m"; sourceTree = "<group>"; };
+		4C81BC4143A6E21B2A74D79DDE51AAD0 /* Pods-RyadarUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyadarUITests-Info.plist"; sourceTree = "<group>"; };
+		5606D1B565D47E2D9DF4851DB2CD8FFB /* Pods-RyadarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyadarTests-Info.plist"; sourceTree = "<group>"; };
+		5851AD8328DD511AE9C20F37CACB9EEE /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		5A4B0002D3853CF81C74A39424496B2B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		637FE0EBC37C9ED697EE03D241864944 /* Pods_RyadarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RyadarTests.framework; path = "Pods-RyadarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A344A738E21644CE11441D49E88CDF /* Pods-RyadarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RyadarTests.modulemap"; sourceTree = "<group>"; };
+		7112B9257E1E484C9EC9150360E25746 /* Pods-RyadarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyadarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751521D65160EE2674B0A27238E9C932 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		762F3222FAF2871DAEC30EBC271D201C /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8393F24FA21E2CFBBA45B3F8C91A5E67 /* Pods-RyadarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RyadarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85608F4DAF5E371F6FBDA977BEA65575 /* Pods_RyadarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RyadarUITests.framework; path = "Pods-RyadarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		8BA130420BE8ADE939F38D24BEC8FFFB /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C57D22D7A9849CE26954D0E95730B07 /* Pods-RyadarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RyadarUITests-umbrella.h"; sourceTree = "<group>"; };
+		8F0434F9D57CABCBB8359007C74AEAD8 /* Pods-Ryadar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ryadar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9A9227F8066E2F70A5DD3726D12A5EE2 /* Pods-Ryadar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ryadar.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D245107B51AE640169EC52A013AD1A /* Pods-Ryadar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ryadar.modulemap"; sourceTree = "<group>"; };
+		B5D48952D0F78CD7FA7A1903B2F67FA1 /* Pods-RyadarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyadarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9246D2BB8E576D3678B409FF5D4020A /* Pods-Ryadar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ryadar-umbrella.h"; sourceTree = "<group>"; };
+		C0AC6BE5460204ACF54BF1DB445CF632 /* Pods-RyadarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyadarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C985F7162E6B06CCCFF5A43F54AB099C /* Pods-RyadarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyadarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		D5BF591364E02B10F6E8FBACAB282298 /* Pods-Ryadar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ryadar.release.xcconfig"; sourceTree = "<group>"; };
+		D92013252A4A64D518EC50FB61AF6A8D /* Pods-RyadarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RyadarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC6953307AA91EBD654B5F5E7FAE748F /* Pods_Ryadar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ryadar.framework; path = "Pods-Ryadar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5983080766D0A8329DB9196E04073F /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E6A8E7F9B3F56766EB450E863D3F165A /* Pods-RyadarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyadarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		EAE29795C422932F59E89F1AA6EA9434 /* Pods-Ryadar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ryadar-dummy.m"; sourceTree = "<group>"; };
+		EDDD227E8511AEA66901E0A535578746 /* Pods-RyadarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RyadarUITests.modulemap"; sourceTree = "<group>"; };
+		F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		FB7A28924AE35DC76046E4F92EC1AFA1 /* Pods-RyadarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyadarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B874462D2D1F6C602C84DEC31C13F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B9FB3B83D375CFDD7E33393177A3AB /* Foundation.framework in Frameworks */,
+				C4B8C6866E0D10770C54C9A80C10E01F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D36F6F7A44E468E0915AC5E9854BEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC42542211225F0CEA8401A2B049EB32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFCDB29D3F4662F8FC558994A6FEABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A379D128A671617637C0E0268C1935DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54B05DD396AAB49BC49340C9F395169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D528C1E35BC3345410996C1B030CB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882A293BD79D4DA49D52A901C0171109 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3C510698F8B0CB6372FD1530FF172C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6953307AA91EBD654B5F5E7FAE748F /* Pods_Ryadar.framework */,
+				637FE0EBC37C9ED697EE03D241864944 /* Pods_RyadarTests.framework */,
+				85608F4DAF5E371F6FBDA977BEA65575 /* Pods_RyadarUITests.framework */,
+				8BA130420BE8ADE939F38D24BEC8FFFB /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDC452DEF114BFEC8339983CB411417 /* Pods-RyadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A344A738E21644CE11441D49E88CDF /* Pods-RyadarTests.modulemap */,
+				D92013252A4A64D518EC50FB61AF6A8D /* Pods-RyadarTests-acknowledgements.markdown */,
+				7112B9257E1E484C9EC9150360E25746 /* Pods-RyadarTests-acknowledgements.plist */,
+				23308BAD70BC9B545DB5ADCFA8828E59 /* Pods-RyadarTests-dummy.m */,
+				5606D1B565D47E2D9DF4851DB2CD8FFB /* Pods-RyadarTests-Info.plist */,
+				204694F428E2DE30B367CCD5C773E590 /* Pods-RyadarTests-umbrella.h */,
+				B5D48952D0F78CD7FA7A1903B2F67FA1 /* Pods-RyadarTests.debug.xcconfig */,
+				E6A8E7F9B3F56766EB450E863D3F165A /* Pods-RyadarTests.release.xcconfig */,
+			);
+			name = "Pods-RyadarTests";
+			path = "Target Support Files/Pods-RyadarTests";
+			sourceTree = "<group>";
+		};
+		7178BF09457C1959B6227F7F030A057B /* Pods-Ryadar */ = {
+			isa = PBXGroup;
+			children = (
+				A2D245107B51AE640169EC52A013AD1A /* Pods-Ryadar.modulemap */,
+				8F0434F9D57CABCBB8359007C74AEAD8 /* Pods-Ryadar-acknowledgements.markdown */,
+				1ED171CC05178D17BAF07856EB379243 /* Pods-Ryadar-acknowledgements.plist */,
+				EAE29795C422932F59E89F1AA6EA9434 /* Pods-Ryadar-dummy.m */,
+				17147A27188F69FF6020992FFF06FE43 /* Pods-Ryadar-frameworks.sh */,
+				332BC8B7E4E58EAF2B82BCDB1C342A32 /* Pods-Ryadar-Info.plist */,
+				B9246D2BB8E576D3678B409FF5D4020A /* Pods-Ryadar-umbrella.h */,
+				9A9227F8066E2F70A5DD3726D12A5EE2 /* Pods-Ryadar.debug.xcconfig */,
+				D5BF591364E02B10F6E8FBACAB282298 /* Pods-Ryadar.release.xcconfig */,
+			);
+			name = "Pods-Ryadar";
+			path = "Target Support Files/Pods-Ryadar";
+			sourceTree = "<group>";
+		};
+		7AA5F6BD67AE2DD3C774380A18766E5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				751521D65160EE2674B0A27238E9C932 /* SVProgressHUD.modulemap */,
+				18EE4AD0753AC0F8C8F87A0633E989CB /* SVProgressHUD.xcconfig */,
+				DE5983080766D0A8329DB9196E04073F /* SVProgressHUD-dummy.m */,
+				5851AD8328DD511AE9C20F37CACB9EEE /* SVProgressHUD-Info.plist */,
+				5A4B0002D3853CF81C74A39424496B2B /* SVProgressHUD-prefix.pch */,
+				762F3222FAF2871DAEC30EBC271D201C /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		882A293BD79D4DA49D52A901C0171109 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */,
+				93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		96AB7C2418FA880204522D5C8DA46940 /* Pods-RyadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD227E8511AEA66901E0A535578746 /* Pods-RyadarUITests.modulemap */,
+				8393F24FA21E2CFBBA45B3F8C91A5E67 /* Pods-RyadarUITests-acknowledgements.markdown */,
+				FB7A28924AE35DC76046E4F92EC1AFA1 /* Pods-RyadarUITests-acknowledgements.plist */,
+				449C2BF4B544D17F0CA0CA8CB3688DFE /* Pods-RyadarUITests-dummy.m */,
+				4C81BC4143A6E21B2A74D79DDE51AAD0 /* Pods-RyadarUITests-Info.plist */,
+				8C57D22D7A9849CE26954D0E95730B07 /* Pods-RyadarUITests-umbrella.h */,
+				C985F7162E6B06CCCFF5A43F54AB099C /* Pods-RyadarUITests.debug.xcconfig */,
+				C0AC6BE5460204ACF54BF1DB445CF632 /* Pods-RyadarUITests.release.xcconfig */,
+			);
+			name = "Pods-RyadarUITests";
+			path = "Target Support Files/Pods-RyadarUITests";
+			sourceTree = "<group>";
+		};
+		96EC1FDA8213EA94182AF633E3DDBC12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DE5BA8622C524C0A888514DB6682197 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9840944F2BACCD4D2F5BEF918114439F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7178BF09457C1959B6227F7F030A057B /* Pods-Ryadar */,
+				3CDC452DEF114BFEC8339983CB411417 /* Pods-RyadarTests */,
+				96AB7C2418FA880204522D5C8DA46940 /* Pods-RyadarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				2C3C510698F8B0CB6372FD1530FF172C /* Products */,
+				9840944F2BACCD4D2F5BEF918114439F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D296A05D57D85D3C279245FDD577FE97 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D296A05D57D85D3C279245FDD577FE97 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3EA2117CD5162FE4D399E9E44C4881FB /* SVIndefiniteAnimatedView.h */,
+				EAC6954634F898848FA9C40A25D50535 /* SVIndefiniteAnimatedView.m */,
+				E8CF300EA321AFF06300AEC02C1494D9 /* SVProgressAnimatedView.h */,
+				F3DCF879A3F71CD43B7705E20AA42349 /* SVProgressAnimatedView.m */,
+				2AFEA3CDDA8B73E1CE77E25ABF055E06 /* SVProgressHUD.h */,
+				CE69C069599A4522192CCEBEA2E41761 /* SVProgressHUD.m */,
+				43008961530BBE6A59C991A593D4CB1D /* SVRadialGradientLayer.h */,
+				87F0B05DCD0A765DB673B753946C0E95 /* SVRadialGradientLayer.m */,
+				96EC1FDA8213EA94182AF633E3DDBC12 /* Resources */,
+				7AA5F6BD67AE2DD3C774380A18766E5C /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04FE0C45596A7E75679316E8C83B1BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD538E6542D9EAEED3D8A14553B7772 /* Pods-RyadarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1040AF1D09311EEE49B42BAFEFA2CE87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95883AB34F94431E2F4650AC71F0058 /* SVIndefiniteAnimatedView.h in Headers */,
+				A4419BAC5A154BF2821425C64785E87B /* SVProgressAnimatedView.h in Headers */,
+				4D1912D5FEB362B868488D0A177C4032 /* SVProgressHUD-umbrella.h in Headers */,
+				D1C7F17C2444E0D89C57E4A6EB01CCA5 /* SVProgressHUD.h in Headers */,
+				C32045C24F098B0F4B649D6910F5E7C5 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C32BCAE11664A6416EF9DEB2CCEBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECC43F23122481CE4FECECC50702901 /* Pods-RyadarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C9C44AB7CD30764A04883267371799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004D8715F05FE7018104AFB1B00C43DD /* Pods-Ryadar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07481E22DCF67D5216BCC7126838B91C /* Pods-Ryadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9AD544FC8A53923217DBC00D7DECC6 /* Build configuration list for PBXNativeTarget "Pods-Ryadar" */;
+			buildPhases = (
+				C7C9C44AB7CD30764A04883267371799 /* Headers */,
+				97DEF554CE15097BEFB820CB1E5C2CF0 /* Sources */,
+				ADFCDB29D3F4662F8FC558994A6FEABF /* Frameworks */,
+				E81FDCB6558CC99E8D9A23510CF0C356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				573D5146FB00F897612EF02783CC87EB /* PBXTargetDependency */,
+			);
+			name = "Pods-Ryadar";
+			productName = "Pods-Ryadar";
+			productReference = DC6953307AA91EBD654B5F5E7FAE748F /* Pods_Ryadar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		156CF594B26A06C5D2E5D46C3B9A61AC /* Pods-RyadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDA460A1AFD7B8FC22C6D3B32B22EEF /* Build configuration list for PBXNativeTarget "Pods-RyadarUITests" */;
+			buildPhases = (
+				730C32BCAE11664A6416EF9DEB2CCEBD /* Headers */,
+				6CA199242F8F794078BA045C7343CED0 /* Sources */,
+				9D36F6F7A44E468E0915AC5E9854BEC7 /* Frameworks */,
+				17EF9E40C7FCDEC66CD7D0051DB4D245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB079E09F19E1713308C2BB0FD3D4991 /* PBXTargetDependency */,
+			);
+			name = "Pods-RyadarUITests";
+			productName = "Pods-RyadarUITests";
+			productReference = 85608F4DAF5E371F6FBDA977BEA65575 /* Pods_RyadarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7F967E54F58C5B98C8A6C995878447 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B0EB6064E624BCF92D50D74BB2F019 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				1040AF1D09311EEE49B42BAFEFA2CE87 /* Headers */,
+				432B31148CD68F4A85E00F1DF2A6AB1A /* Sources */,
+				67B874462D2D1F6C602C84DEC31C13F0 /* Frameworks */,
+				437A3A5870EBC243F5D05C3D85127D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 8BA130420BE8ADE939F38D24BEC8FFFB /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BC49AB1CD5AE6A343F7AEFCB188E3EC /* Pods-RyadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41572B0F6E5582D7DC95BDF6986CA4C4 /* Build configuration list for PBXNativeTarget "Pods-RyadarTests" */;
+			buildPhases = (
+				04FE0C45596A7E75679316E8C83B1BA1 /* Headers */,
+				C7A0DE874459C4FEE37B3BE219C5A253 /* Sources */,
+				E54B05DD396AAB49BC49340C9F395169 /* Frameworks */,
+				03A1E8FC89108C5DCD42279F53066AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD86EDF60AB3D725192FFC271254EC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RyadarTests";
+			productName = "Pods-RyadarTests";
+			productReference = 637FE0EBC37C9ED697EE03D241864944 /* Pods_RyadarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C3C510698F8B0CB6372FD1530FF172C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07481E22DCF67D5216BCC7126838B91C /* Pods-Ryadar */,
+				7BC49AB1CD5AE6A343F7AEFCB188E3EC /* Pods-RyadarTests */,
+				156CF594B26A06C5D2E5D46C3B9A61AC /* Pods-RyadarUITests */,
+				3F7F967E54F58C5B98C8A6C995878447 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A1E8FC89108C5DCD42279F53066AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EF9E40C7FCDEC66CD7D0051DB4D245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437A3A5870EBC243F5D05C3D85127D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3A55AA4327D9542EC22EAF0F0E3E6 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FDCB6558CC99E8D9A23510CF0C356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432B31148CD68F4A85E00F1DF2A6AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F08AD7DA5064229343DA6BE4275475 /* SVIndefiniteAnimatedView.m in Sources */,
+				DAEBB8F44D182ADA95B4993A98EF1922 /* SVProgressAnimatedView.m in Sources */,
+				DBA97C0F1E3A9E1CAC1A1BC66BE55D02 /* SVProgressHUD-dummy.m in Sources */,
+				35FF0EBDEE98388A2585AC08D62605A5 /* SVProgressHUD.m in Sources */,
+				EF27885EFD89E12004061E0611BEE07E /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA199242F8F794078BA045C7343CED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5837D14E63E39BE85FC0978A71986A /* Pods-RyadarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DEF554CE15097BEFB820CB1E5C2CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0F607413624BC24D3084787B1CEA58 /* Pods-Ryadar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A0DE874459C4FEE37B3BE219C5A253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13232AD7DA293DE7DB6D3F5F11386063 /* Pods-RyadarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		573D5146FB00F897612EF02783CC87EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 3F7F967E54F58C5B98C8A6C995878447 /* SVProgressHUD */;
+			targetProxy = D7E60CA7478316911BC0033C5534D70F /* PBXContainerItemProxy */;
+		};
+		AB079E09F19E1713308C2BB0FD3D4991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ryadar";
+			target = 07481E22DCF67D5216BCC7126838B91C /* Pods-Ryadar */;
+			targetProxy = ACC94943797D4BBE7B695E0014BBAEDC /* PBXContainerItemProxy */;
+		};
+		BAD86EDF60AB3D725192FFC271254EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ryadar";
+			target = 07481E22DCF67D5216BCC7126838B91C /* Pods-Ryadar */;
+			targetProxy = 503FEA2A1C74FEAD0EA1048693833846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037142056EAC255B4868F98DBF2549C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AC6BE5460204ACF54BF1DB445CF632 /* Pods-RyadarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A360E3BD24CE096D523855BA0E2E40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D48952D0F78CD7FA7A1903B2F67FA1 /* Pods-RyadarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		520876EC99910D708F233C03A472C456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A8E7F9B3F56766EB450E863D3F165A /* Pods-RyadarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63F2A20FB749812F3A7855E47D903B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EE4AD0753AC0F8C8F87A0633E989CB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97A60DE9F338E0FA5217B43771EA474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9227F8066E2F70A5DD3726D12A5EE2 /* Pods-Ryadar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ryadar/Pods-Ryadar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ryadar/Pods-Ryadar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A45A20CB53E2CD21A06307A9B37A56A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BF591364E02B10F6E8FBACAB282298 /* Pods-Ryadar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ryadar/Pods-Ryadar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ryadar/Pods-Ryadar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2C7D922FBD1A0C6F5F5A5B860B1DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C985F7162E6B06CCCFF5A43F54AB099C /* Pods-RyadarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1AC335FFFDA7EFB690A2F81086DD06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EE4AD0753AC0F8C8F87A0633E989CB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41572B0F6E5582D7DC95BDF6986CA4C4 /* Build configuration list for PBXNativeTarget "Pods-RyadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A360E3BD24CE096D523855BA0E2E40A /* Debug */,
+				520876EC99910D708F233C03A472C456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B0EB6064E624BCF92D50D74BB2F019 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F2A20FB749812F3A7855E47D903B40 /* Debug */,
+				F1AC335FFFDA7EFB690A2F81086DD06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9AD544FC8A53923217DBC00D7DECC6 /* Build configuration list for PBXNativeTarget "Pods-Ryadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A60DE9F338E0FA5217B43771EA474E /* Debug */,
+				A45A20CB53E2CD21A06307A9B37A56A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDA460A1AFD7B8FC22C6D3B32B22EEF /* Build configuration list for PBXNativeTarget "Pods-RyadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C7D922FBD1A0C6F5F5A5B860B1DC6 /* Debug */,
+				037142056EAC255B4868F98DBF2549C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

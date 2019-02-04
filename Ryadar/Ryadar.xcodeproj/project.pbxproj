@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5C35333006A74E3030DC1F /* Pods_RyadarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C02C6ACD81513A5E8B1B89 /* Pods_RyadarUITests.framework */; };
+		1B831AE88B6799F19FDBA2C0 /* Pods_Ryadar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F90E012EF6B9C92AC08A1B /* Pods_Ryadar.framework */; };
 		273D851621FCEA2B00C0A3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D851521FCEA2B00C0A3AD /* AppDelegate.swift */; };
 		273D851821FCEA2B00C0A3AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D851721FCEA2B00C0A3AD /* ViewController.swift */; };
 		273D851B21FCEA2B00C0A3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273D851921FCEA2B00C0A3AD /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		273D852321FCEA2D00C0A3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273D852121FCEA2D00C0A3AD /* LaunchScreen.storyboard */; };
 		273D852E21FCEA2D00C0A3AD /* RyadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D852D21FCEA2D00C0A3AD /* RyadarTests.swift */; };
 		273D853921FCEA2D00C0A3AD /* RyadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D853821FCEA2D00C0A3AD /* RyadarUITests.swift */; };
+		99483F064CE5D32AC983BA68 /* Pods_RyadarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A60FEF6C62C7C3C49B3E60B /* Pods_RyadarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12799FE394429C6D83CB0981 /* Pods-RyadarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyadarTests.debug.xcconfig"; path = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17F90E012EF6B9C92AC08A1B /* Pods_Ryadar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ryadar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D851221FCEA2B00C0A3AD /* Ryadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D851521FCEA2B00C0A3AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		273D851721FCEA2B00C0A3AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		273D853421FCEA2D00C0A3AD /* RyadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D853821FCEA2D00C0A3AD /* RyadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyadarUITests.swift; sourceTree = "<group>"; };
 		273D853A21FCEA2D00C0A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7BCC10FC2FCF6613510D72 /* Pods-RyadarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyadarUITests.release.xcconfig"; path = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A4E3065243D74C0556B0A5B /* Pods-Ryadar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryadar.release.xcconfig"; path = "Target Support Files/Pods-Ryadar/Pods-Ryadar.release.xcconfig"; sourceTree = "<group>"; };
+		61473A1AA787C9B2F58CF547 /* Pods-RyadarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyadarUITests.debug.xcconfig"; path = "Target Support Files/Pods-RyadarUITests/Pods-RyadarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A60FEF6C62C7C3C49B3E60B /* Pods_RyadarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RyadarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C02C6ACD81513A5E8B1B89 /* Pods_RyadarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RyadarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDC2B79C5F7FF49E9B945B2 /* Pods-RyadarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RyadarTests.release.xcconfig"; path = "Target Support Files/Pods-RyadarTests/Pods-RyadarTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0F70A66FC1FCE69D62F294 /* Pods-Ryadar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryadar.debug.xcconfig"; path = "Target Support Files/Pods-Ryadar/Pods-Ryadar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B831AE88B6799F19FDBA2C0 /* Pods_Ryadar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99483F064CE5D32AC983BA68 /* Pods_RyadarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5C35333006A74E3030DC1F /* Pods_RyadarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000515493E04AFEAE8B9BBEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB0F70A66FC1FCE69D62F294 /* Pods-Ryadar.debug.xcconfig */,
+				5A4E3065243D74C0556B0A5B /* Pods-Ryadar.release.xcconfig */,
+				12799FE394429C6D83CB0981 /* Pods-RyadarTests.debug.xcconfig */,
+				8BDC2B79C5F7FF49E9B945B2 /* Pods-RyadarTests.release.xcconfig */,
+				61473A1AA787C9B2F58CF547 /* Pods-RyadarUITests.debug.xcconfig */,
+				2E7BCC10FC2FCF6613510D72 /* Pods-RyadarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		273D850921FCEA2B00C0A3AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				273D852C21FCEA2D00C0A3AD /* RyadarTests */,
 				273D853721FCEA2D00C0A3AD /* RyadarUITests */,
 				273D851321FCEA2B00C0A3AD /* Products */,
+				000515493E04AFEAE8B9BBEE /* Pods */,
+				80A91FB3448BD21317CB95D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = RyadarUITests;
 			sourceTree = "<group>";
 		};
+		80A91FB3448BD21317CB95D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F90E012EF6B9C92AC08A1B /* Pods_Ryadar.framework */,
+				6A60FEF6C62C7C3C49B3E60B /* Pods_RyadarTests.framework */,
+				89C02C6ACD81513A5E8B1B89 /* Pods_RyadarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273D853D21FCEA2D00C0A3AD /* Build configuration list for PBXNativeTarget "Ryadar" */;
 			buildPhases = (
+				347D267D6589542A34DE3F94 /* [CP] Check Pods Manifest.lock */,
 				273D850E21FCEA2B00C0A3AD /* Sources */,
 				273D850F21FCEA2B00C0A3AD /* Frameworks */,
 				273D851021FCEA2B00C0A3AD /* Resources */,
+				9368FF5557BEF7E72CB29667 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273D854021FCEA2D00C0A3AD /* Build configuration list for PBXNativeTarget "RyadarTests" */;
 			buildPhases = (
+				A0FCFFAA494977F50F2AF50B /* [CP] Check Pods Manifest.lock */,
 				273D852521FCEA2D00C0A3AD /* Sources */,
 				273D852621FCEA2D00C0A3AD /* Frameworks */,
 				273D852721FCEA2D00C0A3AD /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 273D854321FCEA2D00C0A3AD /* Build configuration list for PBXNativeTarget "RyadarUITests" */;
 			buildPhases = (
+				F1C1BDD15833AC3E084D5DA7 /* [CP] Check Pods Manifest.lock */,
 				273D853021FCEA2D00C0A3AD /* Sources */,
 				273D853121FCEA2D00C0A3AD /* Frameworks */,
 				273D853221FCEA2D00C0A3AD /* Resources */,
@@ -253,6 +298,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347D267D6589542A34DE3F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ryadar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9368FF5557BEF7E72CB29667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ryadar/Pods-Ryadar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ryadar/Pods-Ryadar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FCFFAA494977F50F2AF50B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RyadarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C1BDD15833AC3E084D5DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RyadarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		273D850E21FCEA2B00C0A3AD /* Sources */ = {
@@ -434,6 +570,7 @@
 		};
 		273D853E21FCEA2D00C0A3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0F70A66FC1FCE69D62F294 /* Pods-Ryadar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +590,7 @@
 		};
 		273D853F21FCEA2D00C0A3AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4E3065243D74C0556B0A5B /* Pods-Ryadar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +610,7 @@
 		};
 		273D854121FCEA2D00C0A3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12799FE394429C6D83CB0981 /* Pods-RyadarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +631,7 @@
 		};
 		273D854221FCEA2D00C0A3AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDC2B79C5F7FF49E9B945B2 /* Pods-RyadarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +652,7 @@
 		};
 		273D854421FCEA2D00C0A3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61473A1AA787C9B2F58CF547 /* Pods-RyadarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +672,7 @@
 		};
 		273D854521FCEA2D00C0A3AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7BCC10FC2FCF6613510D72 /* Pods-RyadarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
