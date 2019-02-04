@@ -15,6 +15,9 @@
 		273D852321FCEA2D00C0A3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273D852121FCEA2D00C0A3AD /* LaunchScreen.storyboard */; };
 		273D852E21FCEA2D00C0A3AD /* RyadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D852D21FCEA2D00C0A3AD /* RyadarTests.swift */; };
 		273D853921FCEA2D00C0A3AD /* RyadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D853821FCEA2D00C0A3AD /* RyadarUITests.swift */; };
+		278E3B152207A00A00BD0B58 /* TableViewControllertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E3B142207A00A00BD0B58 /* TableViewControllertViewController.swift */; };
+		278E3B252207C95800BD0B58 /* CustomeMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E3B232207C95800BD0B58 /* CustomeMessageCell.swift */; };
+		278E3B262207C95800BD0B58 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278E3B242207C95800BD0B58 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		273D853421FCEA2D00C0A3AD /* RyadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D853821FCEA2D00C0A3AD /* RyadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyadarUITests.swift; sourceTree = "<group>"; };
 		273D853A21FCEA2D00C0A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278E3B142207A00A00BD0B58 /* TableViewControllertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllertViewController.swift; sourceTree = "<group>"; };
+		278E3B232207C95800BD0B58 /* CustomeMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeMessageCell.swift; sourceTree = "<group>"; };
+		278E3B242207C95800BD0B58 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		273D851421FCEA2B00C0A3AD /* Ryadar */ = {
 			isa = PBXGroup;
 			children = (
+				278E3B162207A3BB00BD0B58 /* customercell */,
+				27F234872200111C000AA2D5 /* controller */,
+				27F234862200110C000AA2D5 /* New Group */,
 				273D851521FCEA2B00C0A3AD /* AppDelegate.swift */,
 				273D851721FCEA2B00C0A3AD /* ViewController.swift */,
 				273D851921FCEA2B00C0A3AD /* Main.storyboard */,
@@ -106,6 +115,7 @@
 				273D852121FCEA2D00C0A3AD /* LaunchScreen.storyboard */,
 				273D852421FCEA2D00C0A3AD /* Info.plist */,
 				273D851C21FCEA2B00C0A3AD /* Ryadar.xcdatamodeld */,
+				278E3B142207A00A00BD0B58 /* TableViewControllertViewController.swift */,
 			);
 			path = Ryadar;
 			sourceTree = "<group>";
@@ -126,6 +136,29 @@
 				273D853A21FCEA2D00C0A3AD /* Info.plist */,
 			);
 			path = RyadarUITests;
+			sourceTree = "<group>";
+		};
+		278E3B162207A3BB00BD0B58 /* customercell */ = {
+			isa = PBXGroup;
+			children = (
+				278E3B232207C95800BD0B58 /* CustomeMessageCell.swift */,
+				278E3B242207C95800BD0B58 /* MessageCell.xib */,
+			);
+			path = customercell;
+			sourceTree = "<group>";
+		};
+		27F234862200110C000AA2D5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		27F234872200111C000AA2D5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273D852321FCEA2D00C0A3AD /* LaunchScreen.storyboard in Resources */,
+				278E3B262207C95800BD0B58 /* MessageCell.xib in Resources */,
 				273D852021FCEA2D00C0A3AD /* Assets.xcassets in Resources */,
 				273D851B21FCEA2B00C0A3AD /* Main.storyboard in Resources */,
 			);
@@ -260,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				273D851821FCEA2B00C0A3AD /* ViewController.swift in Sources */,
+				278E3B252207C95800BD0B58 /* CustomeMessageCell.swift in Sources */,
+				278E3B152207A00A00BD0B58 /* TableViewControllertViewController.swift in Sources */,
 				273D851E21FCEA2B00C0A3AD /* Ryadar.xcdatamodeld in Sources */,
 				273D851621FCEA2B00C0A3AD /* AppDelegate.swift in Sources */,
 			);

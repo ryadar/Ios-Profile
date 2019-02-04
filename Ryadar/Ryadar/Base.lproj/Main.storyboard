@@ -43,6 +43,7 @@
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNQ-AR-NFy"/>
                                     <action selector="buttonTwoPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gU-1T-EA7"/>
+                                    <segue destination="aaA-DE-REA" kind="show" id="xsA-Or-YzW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhj-IV-g0s">
@@ -75,6 +76,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="96.799999999999997" y="27.436281859070466"/>
+        </scene>
+        <!--Table View Controllert View Controller-->
+        <scene sceneID="DIe-lp-vVd">
+            <objects>
+                <viewController id="aaA-DE-REA" customClass="TableViewControllertViewController" customModule="Ryadar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l4d-gF-5xU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dqz-Z6-ycx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Ykj-G6-3ZS"/>
+                                    <constraint firstAttribute="height" constant="128" id="a0W-FU-VoG"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dqz-Z6-ycx" firstAttribute="top" secondItem="aF6-MW-AZw" secondAttribute="top" id="Evm-Lm-cEz"/>
+                            <constraint firstItem="dqz-Z6-ycx" firstAttribute="centerY" secondItem="l4d-gF-5xU" secondAttribute="centerY" id="hSC-kR-7JW"/>
+                            <constraint firstItem="aF6-MW-AZw" firstAttribute="bottom" secondItem="dqz-Z6-ycx" secondAttribute="bottom" id="iDV-UO-kei"/>
+                            <constraint firstItem="dqz-Z6-ycx" firstAttribute="centerX" secondItem="l4d-gF-5xU" secondAttribute="centerX" id="pwj-GD-DXF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aF6-MW-AZw"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewView" destination="dqz-Z6-ycx" id="UPZ-aO-gWB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hom-2t-JRE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776.79999999999995" y="26.53673163418291"/>
         </scene>
     </scenes>
     <resources>

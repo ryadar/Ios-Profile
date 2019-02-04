@@ -25,21 +25,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    func playSound() {
-        guard let url = Bundle.main.url(forResource: "soundName", withExtension: "mp3") else { return }
-        
-        do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-            try AVAudioSession.sharedInstance().setActive(true)
-            
-            let player = try AVAudioPlayer(contentsOf: url)
-            
-            player.play()
-            
-        } catch let error {
-            print(error.localizedDescription)
-        }
-    }
+//    func playSound() {
+//        guard let url = Bundle.main.url(forResource: "soundName", withExtension: "mp3") else { return }
+//
+//        do {
+//            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+//            try AVAudioSession.sharedInstance().setActive(true)
+//
+//            let player = try AVAudioPlayer(contentsOf: url)
+//
+//            player.play()
+//
+//        } catch let error {
+//            print(error.localizedDescription)
+//        }
+//    }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         
